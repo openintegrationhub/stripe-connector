@@ -8,7 +8,7 @@
       "apiKey": {
         "label": "API Key",
         "required": true,
-        "note": "Your Stripe secret api key",
+        "note": "Your Stripe secret api key"
       }
     }
   },

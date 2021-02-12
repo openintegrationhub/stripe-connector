@@ -6,5 +6,4 @@ describe('Helpers', () => {
   it('should placeholder test', async () => {
     expect(true).to.be.true;
   });
-
 });
