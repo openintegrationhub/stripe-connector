@@ -1,4 +1,4 @@
-![alpha](https://img.shields.io/badge/Status-Alpha-yellow.svg)
+![beta](https://img.shields.io/badge/Status-Beta-yellow.svg)
 
 # Stripe Connector
 
@@ -9,7 +9,7 @@
 ## Triggers
 
 ### getCustomer
-This trigger will get all customers from the associated Stripe account and pass them forward. Currently, the snapshot behaviour only looks at creation date. This means that changes made to an existing customer after it has been processed by this trigger will not be recognised. Newly created/added customers will be processed as normal. 
+This trigger will get all customers from the associated Stripe account and pass them forward. Currently, the snapshot behaviour only looks at creation date. This means that changes made to an existing customer after it has been processed by this trigger will not be recognised. Newly created/added customers will be processed as normal.
 
 ## Integrated Transformations
 
