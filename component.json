@@ -17,7 +17,7 @@
       "title": "Fetch new customers",
       "description": "Will automatically fetch new customers, but does not track changes to existing ones",
       "type": "polling",
-      "main": "./lib/triggers/getCustomers.js",
+      "main": "./lib/triggers/getCustomers.js"
     }
   },
   "actions": {}
