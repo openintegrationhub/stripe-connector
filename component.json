@@ -1,0 +1,24 @@
+{
+  "title": "Stripe",
+  "description": "Stripe OIH Connector",
+  "docsUrl": "https://github.com/openintegrationhub/stripe-connector",
+  "buildType": "docker",
+  "credentials": {
+    "fields": {
+      "apiKey": {
+        "label": "API Key",
+        "required": true,
+        "note": "Your Stripe secret api key",
+      }
+    }
+  },
+  "triggers": {
+    "getCustomers": {
+      "title": "Fetch new customers",
+      "description": "Will automatically fetch new customers, but does not track changes to existing ones",
+      "type": "polling",
+      "main": "./lib/triggers/getCustomers.js",
+    }
+  },
+  "actions": {}
+}
