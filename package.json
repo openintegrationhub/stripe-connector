@@ -28,8 +28,7 @@
   },
   "dependencies": {
     "@openintegrationhub/ferryman": "1.5.0",
-    "request": "2.88.0",
-    "request-promise": "4.1.1"
+    "stripe": "^8.135.0"
   },
   "devDependencies": {
     "chai": "4.2.0",
